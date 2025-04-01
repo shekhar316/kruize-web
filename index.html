@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kruize</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="assets/kruize-icon.png" alt="Kruize Logo" class="logo">
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Docs</a>
+            <a href="#">Contact</a>
+            <div class="icons">
+                <img src="assets/github-icon.png" alt="GitHub">
+                <img src="assets/slack-icon.png" alt="Slack">
+            </div>
+        </div>
+    </div>
+
+    <div class="community-call">
+        <u>Join our community call to explore more and interact with the Kruize team!</u>
+    </div>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Optimize Your Kubernetes Costs</h1>
+            <p>Monitor and reduce your Kubernetes cloud spending with real-time insights.</p>
+            <button class="cta-button" onclick="alert('Get Started!')">Get Started</button>
+        </div>
+        <div class="hero-image">
+            <img src="kruize-ui-screenshot.png" alt="Kruize UI Screenshot">
+        </div>
+    </div>
+
+    <div class="features">
+        <h1 class="feature-heading">Kruize Features</h1>
+
+        <div class="feature">
+            <img src="gpu.png" alt="GPU Optimization">
+            <div class="feature-text">
+                <h2>Right-sizing</h2>
+                <p>Kruize can provide right-sizing recommendations for containers and namespaces.
+                    Container right sizing includes CPU, Memory and Nvidia Accelerators.
+                    Namespace recommendations are in the form of limits for CPU and quota for memory. </p>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="box-plots.png" alt="Box Plots">
+            <div class="feature-text">
+                <h2>Box Plot Recommendation support</h2>
+                <p>Visualize cost distributions with detailed statistical insights.
+                    Box Plots provides actual usage summary for the observed duration.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="container-nsp.png" alt="Container NSP">
+            <div class="feature-text">
+                <h2>GPU Recommendations</h2>
+                <p>MIG Partitioning Recommendations are available from Kruize v0.1 onwards</p>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="instaslice.png" alt="Instaslice">
+            <div class="feature-text">
+                <h2>Instaslice</h2>
+                <p>Kruize uses Instaslice under the covers to apply MIG slicing recommendations for Nvidia accelerators.
+                </p>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="vpa.png" alt="Vertical Pod Autoscaler">
+            <div class="feature-text">
+                <h2>Vertical Pod Autoscaler</h2>
+                <p>Kruize uses VPA under the covers to apply CPU and memory right sizing recommendations.
+                    Kruize supports two modes “auto” and “recreate” that correspond to the modes of VPA with the same
+                    names.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="env-wrapper">
+        <h2 style="text-align:center;">Runs on Any of These Kubernetes Environments</h2>
+        <div class="environment">
+            <div class="env-box">
+                <img src="assets/aws.png" alt="GitHub">
+            </div>
+            <div class="env-box">
+                <img src="assets/k8s-image.png " alt="GitHub">
+            </div>
+            <div class="env-box">
+                On-Premises</div>
+
+        </div>
+    </div>
+
+
+
+    <div class="getting-started-wrapper">
+        <h2 style="text-align:center;">Get Up and Running in 5 Minutes</h2>
+
+        <div class="getting-started">
+
+            <div class="step-box">1. Schedule a demo</div>
+            <div class="step-box">2. Config your Costs</div>
+            <div class="step-box">3. Start Optimizing!</div>
+        </div>
+    </div>
+    <div class="community-call"></div>
+
+    <footer class="footer">
+        <!-- Left Section -->
+        <div class="footer-left">
+            <img class="kruize-footer" src="assets/kruize-vertical.png" alt="Kruize Logo">
+            <div class="gap"></div>
+            <p>Copyright IBM Corp. 2025. All rights reserved.<br>Designed & built in India.</p>
+            <p>Terms| Privacy Policy</p>
+        </div>
+
+        <!-- Center Section -->
+        <div class="footer-center">
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">We're Hiring!</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Tutorials</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Status</a></li>
+            </ul>
+        </div>
+
+        <!-- Right Section -->
+        <div class="footer-right">
+            <a href="mailto:kruize@redhat.com"><u>team@kruize.com</u></a>
+            <div class="social-icons">
+                <a href="#"><img src="assets/github-icon.png" alt="GitHub"></a>
+                <a href="#"><img src="assets/linkedin-icon.png" alt="LinkedIn"></a>
+                <a href="#"><img src="assets/yt-icon.png" alt="YouTube"></a>
+                <a href="#"><img src="assets/slack-black.png" alt="Slack"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
