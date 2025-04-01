@@ -42,7 +42,12 @@ jobs:
           JEKYLL_ENV: production
 
       - name: Copy Custom Index to Root
-        run: cp index.html public/
+        run: |
+          mkdir -p public
+          cp index.html public/
+          cp style.css public/  # Copy CSS to root
+          cp -r assets public/   # Copy assets folder to root
+        
 
       - name: Upload GitHub Pages Artifact
         uses: actions/upload-pages-artifact@v3
